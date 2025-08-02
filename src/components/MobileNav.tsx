@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Sheet,
   SheetContent,
@@ -14,7 +13,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import MobileNavLinks from "./MobileNavLinks";
 
 const MobileNav = () => {
-  const { user, isAuthenticated, loginWithRedirect, logout } = useAuth0();
+  const { user, isAuthenticated, loginWithRedirect } = useAuth0();
   return (
     <Sheet>
       <SheetTrigger>

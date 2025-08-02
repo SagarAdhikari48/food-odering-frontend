@@ -3,8 +3,7 @@ import {
   DropdownMenu,
   DropdownMenuTrigger,
 } from "@radix-ui/react-dropdown-menu";
-import { Circle, CircleIcon, CircleUserRound } from "lucide-react";
-import React, { use } from "react";
+import {  CircleUserRound } from "lucide-react";
 import { DropdownMenuContent, DropdownMenuItem } from "./ui/dropdown-menu";
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
